@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 6
+date: 2014-07-15
+img: submarine.png
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: Web Development
+description:   Marijuana Policy Tracker. In this group project, I was able to get a feel for working with a development team, project management using Agile, and working with a UX Design Team. We were able to execute a nearly identical MVP to the original design. It was also my first experience using javascript where I was able to represent a timeline, toggling between images using a click event.  <a href="https://marijuana-policy-tracker.herokuapp.com">Marijuana Policy Tracker</a>.
+---
