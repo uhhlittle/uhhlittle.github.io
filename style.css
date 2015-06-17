@@ -152,10 +152,18 @@ h2 {
   /*background-color: #f9f7f7;*/
 }
 
+h2:hover {
+  background-color: #eaafb7;
+}
+
 h3 {
 
   font-size: 25px;
   margin-bottom: 10px;
+}
+
+h3:hover{
+  font-style: italic;
 }
 
 
@@ -165,8 +173,15 @@ h3 {
   border-radius: 50%;
   width: 300px;
   height: 300px;
+  transition: all .2s ease-in-out;
 
 }
+
+#profile-photo:hover {
+  transform: scale(1.1);
+}
+
+
 
 #description p{
   /*margin-bottom: 20px;*/
@@ -227,10 +242,18 @@ h3 {
   margin-top: 2em;
 }
 
+.personal-photo-container img:hover {
+
+    transform: scale(1.1);
+  }
+
+}
+
 .personal-photo-container p {
 
   margin-bottom: 2em;
   text-align: center;
+  margin-left: 40px;
 }
 
 
@@ -244,6 +267,7 @@ h3 {
   padding-bottom: 50px;
 }
 
+
 .recent-projects ul {
   list-style-type:none;
   margin-top: 35px;
@@ -251,6 +275,12 @@ h3 {
 .recent-projects a {
   color: #000;
   text-decoration: none;
+}
+
+.recent-projects a:hover {
+  font-style: italic;
+
+
 }
 
 .recent-projects li {
@@ -303,4 +333,8 @@ h3 {
   color: #fff;*/
   width: 20%;
 
+}
+
+.contact-info a:hover {
+font-style: italic;
 }
