@@ -50,38 +50,6 @@ header {
     background-color: black;
     vertical-align:middle;
  }
-/*header h1, nav{
-  display: inline-block;
-  background-color: #000;
-  font-family: 'Cedarville Cursive', cursive;
-
-}
-
-header {
-  width: 100%;
-  background-color: #000;
-  height: 68px;
-  margin-bottom: 3em;
-  color: #fff;
-}
-
-
-
-header h1 {
-  float: left;
-  padding-left: 15px;
-  padding-bottom: 0;
-}*/
-
-/*header nav {
-  float: left;
-  display: inline-block;
-  margin-bottom: 2em;
-  padding-top: 20px;
-  font-family: 'Oswald', sans-serif;
-  padding-right: 10px;
-
-}*/
 
 nav {
   display: inline;
@@ -91,10 +59,6 @@ nav {
   width: 100%;
 }
 
-/*nav ul {
-  list-style-type:none;
-  display: inline-block;
-}*/
 
 nav li{
   font-family: 'Cedarville Cursive', cursive;
@@ -102,16 +66,6 @@ nav li{
   line-height: 65px;
   margin-left: 13%;
 
-  /*display: inline-block;
-  margin-bottom: 2em;
-  margin-left: 13%;
-  width: 10%;
-  height: 2em;
-  color: #fff;
-  border-radius: 10px;
-  text-align: center;
-  padding-top: 5px;
-  padding-right: 20px;*/
 
 }
 
@@ -123,11 +77,20 @@ nav a {
   color: #fff;
   font-size: 30px;
   text-decoration: none;
+  padding: 8px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
 
 }
 
 nav a:hover {
   color: #ef75a4;
+  background-color: white;
+  border-radius: 50%;
 }
 h1 {
   /*font-family: 'Julius Sans One', sans-serif;*/
@@ -143,11 +106,13 @@ h1 {
 h2 {
   font-family: 'Cedarville Cursive', cursive;
   margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  width: 800px;
+  width: 200px;
   height: 2em;
   padding-top: .25em;
-  border-radius: 10px;
+  border-radius: 50%;
   font-size: 30px;
   opacity: .5;
     transition: opacity .5s ease-out;
