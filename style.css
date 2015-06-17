@@ -149,11 +149,17 @@ h2 {
   padding-top: .25em;
   border-radius: 10px;
   font-size: 30px;
+  opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
   /*background-color: #f9f7f7;*/
 }
 
 h2:hover {
   background-color: #eaafb7;
+  opacity: 1;
 }
 
 h3 {
