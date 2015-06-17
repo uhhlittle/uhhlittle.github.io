@@ -1,0 +1,286 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #efeaea;
+font-weight: normal;
+font-family: 'Oswald', sans-serif;
+}
+
+body {
+  width: 100%;
+}
+
+header {
+   background-color: black;
+   height: 70px;
+   width: 100%;
+   position: fixed;
+ }
+
+ header ul{
+   font-size: 13px;
+   display:block;
+   background-color:black;
+   color:white;
+   text-align:center;
+ }
+ .left {
+   float: left;
+   background-color:black;
+   font-family: 'Cedarville Cursive', cursive;
+   font-size: 35px;
+
+ }
+ .right{
+   float: right;
+   text-align: center;
+
+ }
+ header em {
+   font-style: italic;
+ }
+ header strong {
+   font-weight: bold;
+ }
+ header li{
+    display:inline-block;
+    padding:3px 10px;
+    /*min-width:50px;*/
+    background-color: black;
+    vertical-align:middle;
+ }
+/*header h1, nav{
+  display: inline-block;
+  background-color: #000;
+  font-family: 'Cedarville Cursive', cursive;
+
+}
+
+header {
+  width: 100%;
+  background-color: #000;
+  height: 68px;
+  margin-bottom: 3em;
+  color: #fff;
+}
+
+
+
+header h1 {
+  float: left;
+  padding-left: 15px;
+  padding-bottom: 0;
+}*/
+
+/*header nav {
+  float: left;
+  display: inline-block;
+  margin-bottom: 2em;
+  padding-top: 20px;
+  font-family: 'Oswald', sans-serif;
+  padding-right: 10px;
+
+}*/
+
+nav {
+  display: inline;
+  margin-left: 10%;
+  margin-bottom: 2em;
+  color: #fff;
+  width: 100%;
+}
+
+/*nav ul {
+  list-style-type:none;
+  display: inline-block;
+}*/
+
+nav li{
+  font-family: 'Cedarville Cursive', cursive;
+  display: inline;
+  line-height: 65px;
+  margin-left: 13%;
+
+  /*display: inline-block;
+  margin-bottom: 2em;
+  margin-left: 13%;
+  width: 10%;
+  height: 2em;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 5px;
+  padding-right: 20px;*/
+
+}
+
+nav a {
+  display: inline;
+  font-family: 'Cedarville Cursive', cursive;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 30px;
+
+}
+
+h1 {
+  /*font-family: 'Julius Sans One', sans-serif;*/
+  text-align: center;
+  margin-bottom: 1em;
+  background-color: #000;
+  color: #fff;
+  float: left;
+  height: 2em;
+
+}
+
+h2 {
+  font-family: 'Cedarville Cursive', cursive;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 800px;
+  height: 2em;
+  padding-top: .25em;
+  border-radius: 10px;
+  font-size: 30px;
+  /*background-color: #f9f7f7;*/
+}
+
+h3 {
+
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 0 auto;
+  width: 800px;
+  margin-bottom: 15em;
+}
+.contact-info li {
+  margin-left: 1em;
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 2em;
+  background-color: #333131;
+  color: #fff;
+  width: 25%;
+  height: 2.5em;
+  border-radius: 10px;
+}
+
+
+.contact-info a, em {
+  text-align: center;
+  background-color: #333131;
+  color: #fff;
+  width: 20%;
+}
+
+#profile-photo img{
+
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+
+}
+
+#description p{
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.bio {
+  padding-top: 150px;
+
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  text-align: center;
+}
+
+.bio li {
+  width: 40%;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-left: 30px;
+}
+
+.divider {
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.personal-photo-container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  }
+.personal-photo-container ul{
+  list-style-type:none;
+  display: block;
+
+}
+
+.personal-photo-container li {
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  padding-right: 63px;
+}
+
+.personal-photo-container img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1em;
+}
+
+.personal-photo-container p {
+
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+
+
+.recent-projects {
+  text-align: center;
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.recent-projects ul {
+  list-style-type:none;
+}
+.recent-projects a {
+  color: #000;
+  font-family: 'Lobster', cursive;
+}
+
+.recent-projects li {
+  margin-bottom: 2em;
+}
+
+/*.recent-projects li:nth-child(2) {
+  background-color: #f9f7f7;
+  border-bottom: 1px solid #333131;
+  border-right: 1px solid #333131;
+}*/
+
+.recent-projects p:nth-child(2) {
+  border-radius: 10px;
+  background-color: #f9f7f7;
+  border-bottom: 1px solid #333131;
+  border-right: 1px solid #333131;
+}
