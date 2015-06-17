@@ -214,7 +214,8 @@ h3 {
 }
 
 .divider {
-  border-bottom: 2px solid black;
+  border-bottom: 1.5px solid black;
+  border-top: 1.5px solid black;
   margin-bottom: 10px;
 }
 
@@ -228,7 +229,7 @@ h3 {
 .personal-photo-container ul{
   list-style-type:none;
   display: block;
-
+  float: right;
 }
 
 .personal-photo-container li {
@@ -243,6 +244,7 @@ h3 {
   width: 200px;
   height: 200px;
   margin-bottom: 1em;
+  margin-top: 2em;
 }
 
 .personal-photo-container p {
@@ -258,6 +260,8 @@ h3 {
   display: block;
   width: 800px;
   margin: 0 auto;
+  padding-top: 75px;
+  padding-bottom: 50px;
 }
 
 .recent-projects ul {
