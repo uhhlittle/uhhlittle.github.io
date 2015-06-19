@@ -134,7 +134,7 @@ h3 {
 }
 
 h3:hover{
-  font-style: italic;
+  
 }
 
 
@@ -271,7 +271,7 @@ h3:hover{
 }
 
 .recent-projects a:hover {
-  font-style: italic;
+  font-weight: bold;
   opacity: .8;
 
 
@@ -281,17 +281,26 @@ h3:hover{
   margin-bottom: 2em;
 }
 
-/*.recent-projects li:nth-child(2) {
-  background-color: #f9f7f7;
-  border-bottom: 1px solid #333131;
-  border-right: 1px solid #333131;
-}*/
 
 .recent-projects p:nth-child(2) {
   border-radius: 10px;
   background-color: #f9f7f7;
   border-bottom: 1px solid #333131;
   border-right: 1px solid #333131;
+}
+
+.recent-projects img {
+  width: 600px;
+  border-radius: 20px;
+  opacity: .5;
+    transition: opacity .5s ease-out;
+    -moz-transition: opacity .5s ease-out;
+    -webkit-transition: opacity .5s ease-out;
+    -o-transition: opacity .5s ease-out;
+}
+
+.recent-projects img:hover {
+  opacity: 1;
 }
 
 .contact-info {
