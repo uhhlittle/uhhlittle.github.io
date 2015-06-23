@@ -5,10 +5,12 @@ box-sizing: border-box;
 background-color: #efeaea;
 font-weight: normal;
 font-family: 'Oswald', sans-serif;
+z-index: 10000;
 }
 
 body {
   width: 100%;
+  z-index: 10000;
 }
 
 header {
@@ -25,6 +27,7 @@ header {
    color:white;
    text-align:center;
  }
+
  .left {
    float: left;
    background-color:black;
@@ -53,10 +56,11 @@ header {
 
 nav {
   display: inline;
-  margin-left: 10%;
+  margin-left: 5%;
   margin-bottom: 2em;
   color: #fff;
   width: 100%;
+  z-index: 10000;
 }
 
 
@@ -64,7 +68,7 @@ nav li{
   font-family: 'Cedarville Cursive', cursive;
   display: inline;
   line-height: 65px;
-  margin-left: 13%;
+  margin-left: 10%;
 
 
 }
