@@ -416,16 +416,16 @@ background-color: #eaafb7;
   #profile-photo {
     display: block;
     width: 100%;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     float: none;
   }
 
   #profile-photo img {
     width: 80%;
     height: 300px;
-    margin-left: auto 0;
-    margin-right: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
     /*position: static;*/
     opacity: 1;
