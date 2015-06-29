@@ -422,7 +422,7 @@ background-color: #eaafb7;
   }
 
   #profile-photo img {
-    width: 80%;
+    width: auto;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
