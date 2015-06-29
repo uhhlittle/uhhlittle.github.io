@@ -405,6 +405,7 @@ background-color: #eaafb7;
   .bio {
     width: 100%;
     display: block;
+    float: none;
   }
 
   .bio li {
@@ -413,6 +414,7 @@ background-color: #eaafb7;
     padding-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+    float: none;
   }
 
   #profile-photo {
@@ -425,13 +427,15 @@ background-color: #eaafb7;
 
   #profile-photo img {
     width: auto;
-    margin-left: 30px;
+    margin-left: auto: 0;
     margin-right: 0 auto;
     display: block;
     position: static;
     opacity: 1;
     padding-bottom: 10px;
+    /*padding-left: 50px;*/
     margin-top: 30px;
+    float: none;
   }
 
   #description {
@@ -449,6 +453,7 @@ background-color: #eaafb7;
     margin-right: auto;
     display: block;
     width: 100%;
+    height: 300px;
     text-align: center;
     padding: 0;
   }
@@ -457,7 +462,8 @@ background-color: #eaafb7;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    height: 300px;
+
+    overflow: hidden;
     border-radius: 0;
     padding-right: 0;
     /*padding-left: 20px;*/
